@@ -1,0 +1,126 @@
+/* =================================
+  Base Element Styles
+==================================== */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	color: #7b8b8e;
+	margin: 0;
+	text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p {
+	font-size: .95em;
+	margin: 0 1em;
+}
+h2,
+h3,
+a {
+	color: #40484a;
+
+}
+h2,
+h3 {
+	margin: 0 1em;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 90%;
+}
+
+.section-title {
+	font-size: .95em;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Main Header ---- */
+.main-header {
+	background-color: #f9fafa;
+	padding: 3em .5em;
+}
+
+/* ---- Navigation ---- */
+.main-header li {
+	background-color: #fff;
+	margin-bottom: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: .3em .5em;
+	padding: 10px;
+}
+
+.main-header li a {
+	display: block;
+}
+
+.about {
+	margin-top: 3em;
+}
+
+.about img{
+	max-width: 60%;
+	margin-bottom: 1em;
+}
+
+
+/* ---- Portfolio ---- */
+
+.portfolio {
+	padding-top: 3em;
+	padding-bottom: 1em;
+}
+
+.projects {
+	margin-top: 3em;
+}
+
+.projects h3 {
+	margin-top: 1em;
+}
+
+.projects p {
+	margin-bottom: 2em;
+}
+
+
+
+/* ---- Contact ---- */
+.contact{
+	background-color: #f9fafa;
+	padding: 3em .5em;
+}
+
+/* ---- Footer ---- */
+.footer-full {
+	display: none;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+@media (min-width: 1025px) {
