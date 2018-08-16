@@ -2,88 +2,108 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Student Name Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<title>Mackenzie Steele's Portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Lora|Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
 	<header class="main-header">
-    <div class="nav">
-		  <h1 class=""><a href="#">Student Name</a></h1>
+    <nav class="menu">
+		  <h1 class="site-title"><a name="home" href="#home">Mackenzie Steele</a></h1>
 		  <ul class="main-nav">
-			  <li><a href="#">Home</a></li>
-			  <li><a href="#">Portfolio</a></li>
-			  <li><a href="#">Contact</a></li>
+			  <li class="nav-item hvr-grow"><a href="#home">Home</a></li>
+			  <li class="nav-item hvr-grow"><a href="#portfolio">Portfolio</a></li>
+				<li class="nav-item hvr-grow"><a href="#experience">Experience</a></li>
+			  <li class="nav-item hvr-grow"><a href="#contact">Contact</a></li>
 		  </ul>
-    </div><!--.nav-->
+    </nav><!--.nav-->
     <div class="about">
       <img class="profile_image" src="images/responsive-layout-profile.png" alt="Profile Image">
   		<p class="description">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end development at Treehouse and am excited to put my skills to use!</p>
   	</div><!--.about-->
 	</header><!--.main-header-->
 
-
 	<div class="portfolio">
     <div class="">
-      <h2 class="section-title"><a href="#">Portfolio</a></h2>
+      <h2 class="section-title"><a name="portfolio">Portfolio</a></h2>
     </div>
     <div class="projects">
-		  <div class="project-1">
-        <img class="portfolio-img" src="images/portfolio-1.png" alt="Marketing Page Portfolio Image">
+		  <div class="project-1 col">
+        <img class="portfolio-img hvr-grow" src="images/portfolio-1.png" alt="Marketing Page Portfolio Image">
         <h3>Marketing Page</h3>
 			  <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
 		  </div>
-      <div class="project-2">
-        <img class="portfolio-img" src="images/portfolio-2.png" alt="Search Page Portfolio Image">
+      <div class="project-2 col">
+        <img class="portfolio-img hvr-grow" src="images/portfolio-2.png" alt="Search Page Portfolio Image">
         <h3>Search Page</h3>
 			  <p>This project searches through a specific database to find information that the user is trying to look up.</p>
 	  	</div>
-      <div class="project-3">
-        <img class="portfolio-img" src="images/portfolio-3.png" alt="Travel App Portfolio Image">
+      <div class="project-3 col">
+        <img class="portfolio-img hvr-grow" src="images/portfolio-3.png" alt="Travel App Portfolio Image">
         <h3>Travel App</h3>
 		  	<p>This project compares travel times based on different transportation methods and tells you the best one.</p>
   		</div>
-      <div class="project-4">
-        <img class="portfolio-img" src="images/portfolio-4.png" alt="Map of Favorite Spots Portfolio Image">
+      <div class="project-4 col">
+        <img class="portfolio-img hvr-grow" src="images/portfolio-4.png" alt="Map of Favorite Spots Portfolio Image">
         <h3>Map of Favorite Spots</h3>
 		  	<p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-youreslf walking tour.</p>
 	  	</div>
-      <div class="project-5">
-        <img class="portfolio-img" src="images/portfolio-5.png" alt="Photo Gallery Portfolio Image">
+      <div class="project-5 col">
+        <img class="portfolio-img hvr-grow" src="images/portfolio-5.png" alt="Photo Gallery Portfolio Image">
         <h3>Photo Gallery</h3>
 	  		<p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
 	  	</div>
-      <div class="project-6">
-        <img class="portfolio-img" src="images/portfolio-6.png" alt="Calculator Portfolio Image">
+      <div class="project-6 col">
+        <img class="portfolio-img hvr-grow" src="images/portfolio-6.png" alt="Calculator Portfolio Image">
         <h3>Calculator</h3>
 	  		<p>Someone can enter in the numbers they want, and press the big blue button and get the results.</p>
   		</div>
     </div><!--.projects-->
   </div><!--.portfolio-->
 
+	<div class="experience">
+		<div class="">
+			<h2 class="section-title"><a name="experience">Experience</a></h2>
+		</div>
+		<div class="experience-container">
+			<div class="experience-1 ex-col">
+				<h3>Treehouse</h3>
+				<p>Junior Marketing Designer</p>
+			</div>
+			<div class="experience-2 ex-col">
+				<h3>Freelance</h3>
+				<p>Visual Designer</p>
+			</div>
+			<div class="experience-3 ex-col">
+				<h3>Makespace!</h3>
+				<p>Web Designer</p>
+			</div>
+		</div><!--.experience-container-->
+	</div><!--.experience-->
+
+<footer class="">
   <div class="contact">
-    <h2 class="section-title"><a href="#">Contact</a></h2>
+    <h2 class="section-title"><a name="contact">Contact</a></h2>
     <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
     <p class="">Phone <b>+1 (111) 555-1234</b></p>
     <p class="">Email <b>email@yoursite.com</b></p>
   </div><!--.contact-->
-
-  <footer class="footer-full">
-		<p>Student Name</p>
-    <ul class="footer-nav">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Portfolio</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</footer><!--.footer-full-->
-
-  <footer class="footer-mobile">
-    <p>Student Name</p>
-    <ul class="footer-nav">
-      <li><a href="#">Back to Top</a></li>
-    </ul>
-  </footer><!--.footer-mobile-->
+<hr>
+  <div class="footer-full">
+			<h4 class="site-title f-col">Mackenzie Steele</h4>
+    	<ul class="footer-nav f-col">
+				<li class="f-col-item hvr-grow"><a href="#home">Home</a></li>
+				<li class="f-col-item hvr-grow"><a href="#portfolio">Portfolio</a></li>
+				<li class="f-col-item hvr-grow"><a href="#experience">Experience</a></li>
+				<li class="f-col-item hvr-grow"><a href="#contact">Contact</a></li>
+			</ul>
+		</div><!--.footer-full-->
+  <div class="footer-mobile">
+    <h4 class="f-m-col"><b>Mackenzie Steele</b></h4>
+    <p class="f-col hvr-grow"><a href="#home">Back to Top</a><p>
+	</div><!--.footer-mobile-->
+</footer>
 
 </body>
 </html>
